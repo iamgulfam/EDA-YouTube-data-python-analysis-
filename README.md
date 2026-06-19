@@ -58,7 +58,7 @@ import matplotlib.pyplot as plt
 
 ## 7. Methods
 
-1. **Data Cleaning** — loaded the raw CSV, checked for nulls, dropped missing rows.
+1. **Data Cleaning** — loaded the raw CSV, checked for nulls, and dropped missing rows.
 2. **Sentiment Analysis** — used TextBlob to score each comment's polarity (-1 to +1). Split comments into positive and negative groups.
 3. **Word Cloud Analysis** — generated word clouds for positive and negative comment groups to surface dominant language.
 4. **Emoji Analysis** — extracted every emoji from comments, counted frequency, and plotted the top 10 with Plotly.
